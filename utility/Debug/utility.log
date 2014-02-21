@@ -1,0 +1,49 @@
+﻿生成启动时间为 2013/12/12 14:20:45。
+     1>项目“D:\code\visual studio projects\cloud_game_final\utility\utility.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\utility.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bit_set.cpp buffer.cpp command_client.cpp command_recorder.cpp command_server.cpp common_net.cpp compressor.cpp config.cpp float_helper.cpp hash.cpp hash_set.cpp log.cpp network.cpp
+         network.cpp
+         log.cpp
+         hash_set.cpp
+         hash.cpp
+         float_helper.cpp
+         config.cpp
+     1>d:\code\visual studio projects\cloud_game_final\utility\config.cpp(55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         compressor.cpp
+         common_net.cpp
+         command_server.cpp
+         command_recorder.cpp
+     1>d:\code\visual studio projects\cloud_game_final\utility\command_recorder.cpp(152): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         command_client.cpp
+         buffer.cpp
+         bit_set.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt lzo\minilzo.c
+         minilzo.c
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\code\visual studio projects\cloud_game_final\Debug\utility.lib" /NOLOGO Debug\bit_set.obj
+         Debug\buffer.obj
+         Debug\command_client.obj
+         Debug\command_recorder.obj
+         Debug\command_server.obj
+         Debug\common_net.obj
+         Debug\compressor.obj
+         Debug\config.obj
+         Debug\float_helper.obj
+         Debug\hash.obj
+         Debug\hash_set.obj
+         Debug\log.obj
+         Debug\minilzo.obj
+         Debug\network.obj
+         utility.vcxproj -> D:\code\visual studio projects\cloud_game_final\Debug\utility.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\utility.unsuccessfulbuild”。
+         正在对“Debug\utility.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\code\visual studio projects\cloud_game_final\utility\utility.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.97
